@@ -1,4 +1,4 @@
-const fibGenerator = (nums, memo = {}) => {
+const fibGenerator = (nums, memo = {}) => { 
   if (nums in memo) {
     return memo[nums];
   } 
