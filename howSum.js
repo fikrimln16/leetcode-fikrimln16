@@ -1,4 +1,4 @@
-const howSum = (targetSum, numbers) => {
+const howSum = (targetSum, numbers) => { 
   //jika semua pengurangan selesai di angka 0, maka terdapat angka yang benar
   if (targetSum === 0) return [];
   //jika tidak selesai pada 0, dan hasil minus, maka tidak ada angka yang dapat mencapai target
