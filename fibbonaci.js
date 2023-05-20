@@ -1,7 +1,7 @@
 const fibGenerator = (nums, memo = {}) => {
   if (nums in memo) {
     return memo[nums];
-  }
+  } 
 
   if (nums === 1) {
     memo[1] = [1];

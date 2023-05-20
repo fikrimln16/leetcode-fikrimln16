@@ -26,5 +26,5 @@ const nums = [1,2,3, 4];
 const fn = function sum(accum, curr) {
   return accum + curr * curr;
 };
-const init = 0;
+const init = 0; 
 console.log(reduce(nums, fn, init));
