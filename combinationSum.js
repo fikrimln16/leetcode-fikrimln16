@@ -1,4 +1,4 @@
-const combinationSum = (targetSum, numbers) => {
+const combinationSum = (targetSum, numbers) => { 
   if (targetSum === 0) return [[]];
   if (targetSum < 0) return null;
 
