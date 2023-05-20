@@ -9,7 +9,7 @@ Both customers are considered the richest with a wealth of 6 each, so return 6.
 
 */
 
-var maximumWealth = function(accounts) {
+var maximumWealth = function(accounts) { 
     
   let highest = 0;
   
