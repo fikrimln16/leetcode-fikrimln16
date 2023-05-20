@@ -1,4 +1,4 @@
-const bestSum = (targetSum, numbers) => {
+const bestSum = (targetSum, numbers) => { 
 
   if (targetSum === 0) return [];
   if (targetSum < 0) return null;
