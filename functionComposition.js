@@ -1,4 +1,4 @@
-const compose = (functions) => {
+const compose = (functions) => { 
   return (value) => {
     return functions.reduceRight((result, fn) => {
       return fn(result);
