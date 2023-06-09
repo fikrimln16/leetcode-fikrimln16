@@ -28,6 +28,8 @@ var largestSubstring = function(s) {
   let temp = []
   let res = []
   let max = 0
+
+  //mencari index keberapa saja yang stringnya sama
   for (let i = 0; i < array.length; i++) {
     for (let j = i+1; j < array.length; j++) {
       if(array[i] === array[j]){
@@ -36,6 +38,7 @@ var largestSubstring = function(s) {
     }
   }
 
+  //mencari jumlah perbandingan yang paling besar
   for (let i = 0; i < temp.length; i++) {
     let element = temp[i]
     let element2 = temp[i+1]
@@ -45,6 +48,7 @@ var largestSubstring = function(s) {
     }
   }
 
+  //return hasil tersebut
   if(temp.length && res.length >= 0){
     return max-1
   } else if (temp.length && res.length === 0){
