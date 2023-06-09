@@ -55,4 +55,6 @@ var largestSubstring = function(s) {
 
 };
 
-console.log(largestSubstring("ccac"))
+console.log(largestSubstring("abca")) // 2
+console.log(largestSubstring("aa")) // 0
+console.log(largestSubstring("cbzxy")) // -1
