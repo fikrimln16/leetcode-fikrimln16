@@ -24,4 +24,4 @@ const bestSum = (targetSum, numbers) => {
   return shortestCombination;
 }
 
-console.log(bestSum(8, [3,5]))
+console.log(bestSum(3, [1,2]))

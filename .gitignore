@@ -1,0 +1,38 @@
+# File dan direktori yang biasanya ingin diabaikan dalam proyek Node.js
+
+# Dependensi yang diinstal oleh npm
+/node_modules
+
+# Berkas yang dihasilkan saat menjalankan kode (misalnya, berkas .log, .out, .pid, dsb.)
+*.log
+*.out
+*.pid
+
+# Berkas yang berisi informasi pengaturan lokal (contoh: .env)
+.env
+
+# Berkas yang berisi dependensi lokal yang diinstal oleh yarn
+/yarn-error.log
+.yarn/*
+
+# Berkas yang dihasilkan oleh alat pengembangan atau pengujian (contoh: coverage, hasil build)
+coverage/
+dist/
+build/
+tmp/
+
+# Berkas yang berisi konfigurasi untuk editor atau alat pengembangan (contoh: .vscode, .idea)
+.vscode/
+.idea/
+
+# Berkas yang berisi cache atau berkas temporari
+.cache/
+*.swp
+*.swo
+*.DS_Store
+
+# Berkas yang dihasilkan oleh alat pengembangan atau pengujian (contoh: coverage, hasil build)
+coverage/
+dist/
+build/
+tmp/
