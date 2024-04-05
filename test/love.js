@@ -45,3 +45,5 @@ function printlove(n) {
 
 // Contoh pemanggilan fungsi printlove dengan n = 6
 printlove(10);
+
+

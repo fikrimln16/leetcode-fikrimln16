@@ -31,8 +31,10 @@ var wordPattern = function(pattern, s) {
       }
    }
 
+   map1
+   map2
 
    return true;
 };
 
-console.log(wordPattern("abab", "dog cat cat dog")); // Output: false
+console.log(wordPattern("abbba", "dog cat cat dog cat")); // Output: false
